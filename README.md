@@ -1,3 +1,6 @@
+# THIS IS A FORK
+
+It exposes a modified version of the mdns protocol implementation that accepts arbitrary TXT and service name.
 # Central repository for work on libp2p
 
 <a href="http://libp2p.io/"><img src="https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square" /></a>
