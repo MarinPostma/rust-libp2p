@@ -121,7 +121,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // Create a Swarm to manage peers and events
     let mut swarm = {
-        let mdns = Mdns::new()?;
+        let mdns = Mdns::new("_p2p._udp.local")?;
         let mut behaviour = MyBehaviour {
             floodsub: Floodsub::new(local_peer_id.clone()),
             mdns,
